@@ -9,6 +9,7 @@ import javax.persistence.Id;
 public class DataBase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    
     private Long id;
     private String name;
     private int port;
